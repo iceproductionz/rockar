@@ -18,6 +18,7 @@ Less is more, but sometimes a plugin will be more time efficient than writing so
 
 Submissions to be sent over as separate git repositories with suitable commits, messages, tags, etc… 
 
+Please send all submissions to dominic.sutton@rockar.com  
 
 ### Design
 (See design.png) 
@@ -27,3 +28,5 @@ Submissions to be sent over as separate git repositories with suitable commits, 
 Your submission will be assessed on your ability to present a practical understanding of the OOP Principles (Abstraction, Encapsulation, Polymorphism, Implementation), APIs, coding standards and unit testing.  
 
 Points will be deducted for any redundant code left over or for any code not fully refactored.
+
+
