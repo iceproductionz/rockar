@@ -8,7 +8,7 @@ Create an endpoint at which the designed data packet can be sent to.
 
 Create the response, as outlined in the design to response in a valid JSON format.  
 
-The data.csv file contain dummy data in order to fulfil the request - it is expected that data can be sourced from either a .csv file or DB connection (to be configuration from an .env file).  
+The product.csv and customer.csv file contain dummy data in order to fulfil the request - it is expected that data can be sourced from either a .csv file or DB connection (to be configuration from an .env file).  
 
 Whilst no external connection will be required, where appropriate stub out any external data connection.  
 
