@@ -1,5 +1,19 @@
 # Rockar Tech Test
 
+### Example Urls
+Get Customers
+```bash
+$ localhost:8000/api/v1/customers?identifier=Tom&identifierField=forename&fields[]=forename&fields[]=email&fields[]=surname
+```
+
+Get Products
+```bash
+$ localhost:8000/api/v1/products?identifier=WVGCV7AX7AW000784&identifierField=vin&fields[]=vin&fields[]=colour&fields[]=make
+```
+
+
+
+
 ### Objective
 To demonstrate your OOP and Unit Testing skills
 
@@ -28,5 +42,3 @@ Please send all submissions to dominic.sutton@rockar.com
 Your submission will be assessed on your ability to present a practical understanding of the OOP Principles (Abstraction, Encapsulation, Polymorphism, Implementation), APIs, coding standards and unit testing.  
 
 Points will be deducted for any redundant code left over or for any code not fully refactored.
-
-
