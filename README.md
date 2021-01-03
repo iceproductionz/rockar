@@ -5,8 +5,15 @@ To demonstrate your OOP and Unit Testing skills
 
 ### Assumptions 
 - RPC type endpoints for this API
-- Eields in query fields is the fields that should be returned
+- Fields in query fields is the fields that should be returned
 - Endpoints designed to only return one result
+
+### Opinionated Design Patterns and Principles
+- RPC type endpoints whilst they have practical usages for fixed data. They can grow quickly out of control, which can make it challenging to break into small services
+- Since this was a small app I did not find the requirement of using / finding a dependency injection service, if this application grows this will become necessary
+- Did not stub a database as that is just bloatware to an application that does not use it, instead introduced a contract (Interface) which can be used for satisfy any storage the application need to use the future.
+- Manually tested the endpoints and with unit tests
+- Used slim as it is one of the least invasive frameworks when want to display good OOP patterns and principles
 
 ## Requirements
 1. docker and docker-compose
