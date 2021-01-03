@@ -7,7 +7,6 @@ To demonstrate your OOP and Unit Testing skills
 - RPC type endpoints for this API
 - Eields in query fields is the fields that should be returned
 - Endpoints designed to only return one result
-- 
 
 ## Requirements
 1. docker and docker-compose
@@ -41,10 +40,6 @@ Get Products
 ```bash
 $ localhost:9191/api/v1/products?identifier=WVGCV7AX7AW000784&identifierField=vin&fields[]=vin&fields[]=colour&fields[]=make
 ```
-
-
-
-
 
 ### Objective
 To demonstrate your OOP and Unit Testing skills
