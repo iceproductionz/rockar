@@ -1,15 +1,47 @@
 # Rockar Tech Test
 
+## Description
+To demonstrate your OOP and Unit Testing skills
+
+### Assumptions 
+- RPC type endpoints for this API
+- Eields in query fields is the fields that should be returned
+- Endpoints designed to only return one result
+- 
+
+## Requirements
+1. docker and docker-compose
+
+## Usage
+### Docker
+ - host: localhost
+ - port: 9191
+
+### Customers Endpoint
+ - path: api/v1/customers
+ - queryFields: 
+    - identifier: string 
+    - identifierFields: [ email,forename, surname, contactNumber, postcode ]
+    - fields[]: [ email,forename, surname, contactNumber, postcode ]
+
+### Products Endpoint
+ - path: api/v1/products
+ - queryFields: 
+    - identifier: string 
+    - identifierFields: [ vin, colour, make, model, price ]
+    - fields[]: [ vin, colour, make, model, price ]
+
 ### Example Urls
 Get Customers
 ```bash
-$ localhost:8000/api/v1/customers?identifier=Tom&identifierField=forename&fields[]=forename&fields[]=email&fields[]=surname
+$ localhost:9191/api/v1/customers?identifier=Tom&identifierField=forename&fields[]=forename&fields[]=email&fields[]=surname
 ```
 
 Get Products
 ```bash
-$ localhost:8000/api/v1/products?identifier=WVGCV7AX7AW000784&identifierField=vin&fields[]=vin&fields[]=colour&fields[]=make
+$ localhost:9191/api/v1/products?identifier=WVGCV7AX7AW000784&identifierField=vin&fields[]=vin&fields[]=colour&fields[]=make
 ```
+
 
 
 
